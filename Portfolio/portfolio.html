@@ -4,9 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width,initial-scale=1">
   <title>Portfolio</title>
-  <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous"> -->
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
-  <!-- <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"> -->
   <link rel="stylesheet" href="css/style.css">
   
 </head>
@@ -71,16 +69,15 @@
     </div>
     <div class="row portfolio__row--first">
       <div class="col-lg-6  col-md-12 col-sm-12 col-xs-12 portfolio__col--yamamaru-wrapper fadeUp">
-        <div class="portfolio__col--img portfolio__col--yamamaru-img"></div>
-        <p class="portfolio__col--text">YamaMaru Portfolio</p>
+        <img src="./img/YamaMaruPortfolio/YamaMaruPortfolio.jpg" class="portfolio__col--img portfolio__col--yamamaru-img" alt="">        <p class="portfolio__col--text">YamaMaru Portfolio</p>
       </div>
       <div class="col-lg-6 col-md-12 col-sm-12 col-xs-12 portfolio__col--typing-wrapper fadeUp">
-        <div class="portfolio__col--img portfolio__col--typing-img"></div>
+        <img src="./img/RomajiTypingGame/RomajiTypingGame.jpg" class="portfolio__col--img portfolio__col--typing-img" alt="">
         <p class="portfolio__col--text">Romaji Typing Game</p>
       </div>
       <div class="col-lg-6 col-md-12 col-sm-12 col-xs-12 portfolio__col--memo-wrapper fadeUp">
-        <div class="portfolio__col--img portfolio__col--memo-img"></div>
-        <p class="portfolio__col--text">Memo</p>
+        <img src="./img/Memo/Memo.jpg" class="portfolio__col--img portfolio__col--memo-img" alt="">
+        <p class="portfolio__col--text">memo</p>
       </div>
     </div>
   </div>
@@ -89,85 +86,64 @@
   <div class="portfolio__popup--overlay"></div>
   <div class="portfolio__popup--content portfolio__popup--yamamaru-content">
     <button class="portfolio__pop--close-btn"></button>
-    <h2>YamaMaru Portfolio</h2>
+    <h2 class="portfolio__popup--title">YamaMaru Portfolio</h2>
     <p class="portfolio__popup--text">
-      <span>こちらのポートフォリオページです。人様のポートフォリオやデザインを参考にしつつ、作成しました。</span>
-      <span>丸みと落ち着いた色を基調にデザインをし、優しい感じを表現しています。</span>
+      <span>こちらのポートフォリオページです。デザインは、人様のポートフォリオやサイトとを参考にしつつ作成しました。</span>
+      <span>丸みと落ち着いた色を基調にデザインを行い、優しい感じを表現しています。</span>
+      <span>また、スマホサイズで表示されるヘッダーのハンバーガーメニューや、表示のアニメ―ションにJavaScriptを使用しています。</span>
     </p>
-    <h2>使用言語など</h2>
+    <h2 class="portfolio__popup--title">使用言語など</h2>
     <p class="portfolio__popup--text">
     <span>HTML/CSS(Bootstrap), JavaScript(JQuery)</span>
     </p>
-      <a href="https://yamamaru15.github.io/Portfolio/index.html"><label class= "portfolio__popup--link"><img class="portfolio__popup--img" src="./img/icon/eyeglasses.svg" alt="">preview</label></a>
-      <a href=""><label class= "portfolio__popup--link"><img class="portfolio__popup--img" src="./img/icon/github.svg" alt="">github</label></a>
-      <!-- <div class="portfolio__slider--wrap">
-      <ul class="portfolio__slider" id="portfolio__slider-js">
-        <li><img src="./img/YamaMaruPortfolio/YamaMaruPortfolio.jpg" alt="Image 1"></li>
-        <li><img src="./img/YamaMaruPortfolio/YamaMaruPortfolio.jpg" alt="Image 1"></li>
-        <li><img src="./img/YamaMaruPortfolio/YamaMaruPortfolio.jpg" alt="Image 1"></li>
-        <li><img src="./img/YamaMaruPortfolio/YamaMaruPortfolio.jpg" alt="Image 1"></li>
-        <li><img src="./img/YamaMaruPortfolio/YamaMaruPortfolio.jpg" alt="Image 1"></li>
-      </ul>
-      <div class="portfolio__slider-dots"></div>
-    </div> -->
+    <div class="portfolio__popup--link-wrap">
+      <a href="https://github.com/YamaMaru15/portfolio.git" target="_blank" rel="noreferrer noopener"><label class= "portfolio__popup--link"><img class="portfolio__popup--img" src="./img/icon/github.svg" alt="">github</label></a>
+    </div>
   </div>
 
   <div class="portfolio__popup--overlay"></div>
   <div class="portfolio__popup--content portfolio__popup--typing-content">
     <button class="portfolio__pop--close-btn"></button>
-    <h2>Romaji Typing Game</h2>
+    <h2 class="portfolio__popup--title">Romaji Typing Game</h2>
     <p class="portfolio__popup--text">
       <span>プログラミング学習サービスのdotinstallで学習をしました。</span>
       <span>ローマ字入力でのタイピングゲームです。難易度が選択でき、クリア後にかかった時間が表示されます。</span>
       <span>学習後自ら、単語ランダム表示、難易度選択、リスタート機能とjavaScriptでアニメーションを追加しています。</span>
     </p>
-    <h2>使用言語など</h2>
+    <h2 class="portfolio__popup--title">使用言語など</h2>
     <p class="portfolio__popup--text">
       <span>HTML/CSS, JavaScript</span>
     </p>
-    <a href="https://yamamaru15.github.io/RomajiTypingGame/index.html"><label class= "portfolio__popup--link"><img class="portfolio__popup--img" src="./img/icon/eyeglasses.svg" alt="">preview</label></a>
-    <a href="https://github.com/YamaMaru15/RomajiTypingGame"><label class= "portfolio__popup--link"><img class="portfolio__popup--img" src="./img/icon/github.svg" alt="">github</label></a>
-    <!-- <div class="slider">
-      <div><img src="./img/YamaMaruPortfolio/YamaMaruPortfolio.jpg" alt="Image 1"></div>
-      <div><img src="./img/YamaMaruPortfolio/YamaMaruPortfolio.jpg" alt="Image 2"></div>
-      <div><img src="./img/YamaMaruPortfolio/YamaMaruPortfolio.jpg" alt="Image 3"></div>
-      <div><img src="./img/YamaMaruPortfolio/YamaMaruPortfolio.jpg" alt="Image 4"></div>
-      <div><img src="./img/YamaMaruPortfolio/YamaMaruPortfolio.jpg" alt="Image 5"></div>
-    </div> -->
+    <div class="portfolio__popup--link-wrap">
+      <a href="https://yamamaru15.github.io/RomajiTypingGame/index.html" target="_blank" rel="noreferrer noopener"><label class= "portfolio__popup--link"><img class="portfolio__popup--img" src="./img/icon/eyeglasses.svg" alt="">preview</label></a>
+      <a href="https://github.com/YamaMaru15/RomajiTypingGame" target="_blank" rel="noreferrer noopener"><label class= "portfolio__popup--link"><img class="portfolio__popup--img" src="./img/icon/github.svg" alt="">github</label></a>
+    </div>
   </div>
 
   <div class="portfolio__popup--overlay"></div>
   <div class="portfolio__popup--content portfolio__popup--memo-content">
     <button class="portfolio__pop--close-btn"></button>
-    <h2>Memo</h2>
+    <h2 class="portfolio__popup--title">memo</h2>
     <p class="portfolio__popup--text">
       <span>プログラミング学習サービスのdotinstallで学習をしました。</span>
       <span>ブラウザのローカルストレージにメモの内容を保存します。</span>
       <span>学習後自ら、タイトル欄の追加、編集をした場合Webページからの離脱時に確認をとる機能を追加しました。</span>
     </p>
-    <h2>使用言語など</h2>
+    <h2 class="portfolio__popup--title">使用言語など</h2>
     <p class="portfolio__popup--text">
       <span>HTML/CSS, JavaScript</span>
     </p>
-    <a href="https://yamamaru15.github.io/Memo/index.html"><label class= "portfolio__popup--link"><img class="portfolio__popup--img" src="./img/icon/eyeglasses.svg" alt="">preview</label></a>
-    <a href="https://github.com/YamaMaru15/Memo"><label class= "portfolio__popup--link"><img class="portfolio__popup--img" src="./img/icon/github.svg" alt="">github</label></a>
-    <!-- <div class="slider">
-      <div><img src="./img/YamaMaruPortfolio/YamaMaruPortfolio.jpg" alt="Image 1"></div>
-      <div><img src="./img/YamaMaruPortfolio/YamaMaruPortfolio.jpg" alt="Image 2"></div>
-      <div><img src="./img/YamaMaruPortfolio/YamaMaruPortfolio.jpg" alt="Image 3"></div>
-      <div><img src="./img/YamaMaruPortfolio/YamaMaruPortfolio.jpg" alt="Image 4"></div>
-      <div><img src="./img/YamaMaruPortfolio/YamaMaruPortfolio.jpg" alt="Image 5"></div>
-    </div> -->
+    <div class="portfolio__popup--link-wrap">
+      <a href="https://yamamaru15.github.io/memo/index.html" target="_blank" rel="noreferrer noopener"><label class= "portfolio__popup--link"><img class="portfolio__popup--img" src="./img/icon/eyeglasses.svg" alt="">preview</label></a>
+      <a href="https://github.com/YamaMaru15/memo" target="_blank" rel="noreferrer noopener"><label class= "portfolio__popup--link"><img class="portfolio__popup--img" src="./img/icon/github.svg" alt="">github</label></a>
+    </div>
   </div>
 
-  <!-- スクリプト -->
-  <!-- <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script> -->
+  <!-- script -->
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" 
   integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
   <script src="https://code.jquery.com/jquery-3.7.0.min.js" 
   integrity="sha256-2Pmvv0kuTBOenSvLm6bvfBSSHrUJ+3A7x6P5Ebd07/g=" crossorigin="anonymous"></script>
-  <!-- <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script> -->
   <script src="js/main.js"></script>
 </body>
 </html>
