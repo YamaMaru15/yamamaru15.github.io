@@ -1,0 +1,196 @@
+@charset "utf-8";
+
+body {
+  margin: 0;
+  padding: 0;
+}
+.clearfix::after {
+  content: " ";
+  display: block;
+  clear: both;
+}
+.fl {
+  float: left;
+}
+.fr {
+  float: right;
+}
+.font14 {
+  font-size: 14px;
+}
+.mb5 {
+  margin-bottom: 5px;
+}
+.mb10 {
+  margin-bottom: 10px;
+}
+.mb20 {
+  margin-bottom: 20px;
+}
+.mb30 {
+  margin-bottom: 30px;
+}
+.mb40 {
+  margin-bottom: 40px;
+}
+.text_red {
+  color: #f00;
+}
+.text_center {
+  text-align: center;
+}
+
+#header h1 {
+  margin: 0;
+  background: #333;
+  color: #fff;
+  padding: 10px;
+}
+#menu {
+  float: left;
+  margin: 20px 10px 0 10px;
+  width: 10%;
+  border: 1px solid #333;
+}
+#menu h3 {
+  margin: 0;
+  background: #ccc;
+  color: #333;
+  padding: 10px;
+  border-bottom: 1px solid #333;
+}
+#menu .sub_menu {
+  padding: 10px;
+}
+#main {
+  float: right;
+  margin: 20px 10px 0 10px;
+  width: 85%;
+}
+#title {
+  background: #8ea9db;
+  font-weight: bold;
+  padding: 10px;
+  margin: 0 0 10px 0;
+  border: 1px solid #333;
+}
+#search_area {
+  margin: 0 0 20px 0;
+}
+#sub_title {
+  border: 1px solid #333;
+  background: #8ea9db;
+  padding: 5px;
+  margin: 0;
+}
+#form_area {
+  border-left: 1px solid #333;
+  border-right: 1px solid #333;
+  border-bottom: 1px solid #333;
+  margin-bottom: 20px;
+}
+#search_button {
+  width: 100px;
+}
+.input_area {
+  float: left;
+  margin: 10px;
+  width: 30%;
+}
+.input_area_right {
+  float: right;
+  margin: 10px;
+}
+.input_label {
+  margin-right: 5px;
+  font-weight: bold;
+}
+#page_area {
+  margin-bottom: 20px;
+}
+#page_count {
+  text-align: right;
+}
+#paging {
+  text-align: center;
+}
+.page {
+  border: 1px solid #00f;
+  padding: 0 10px;
+  margin: 10px;
+}
+.page.current {
+  border: none;
+}
+.page a {
+  text-decoration: none;
+}
+#search_result table {
+  width: 100%;
+  border: 1px solid #333;
+  border-spacing: 0;
+}
+#search_result table th {
+  background: #ccc;
+  border-right: 1px solid #333;
+  border-bottom: 1px solid #333;
+}
+#search_result table th:last-child {
+  border-right: none;
+}
+#search_result table td {
+  border-right: 1px solid #aaa;
+  border-bottom: 1px solid #333;
+}
+#search_result table td:last-child {
+  border-right: none;
+}
+#search_result table tr:last-child td {
+  border-bottom: none;
+}
+#search_result table tr td.button_area {
+  width: 100px;
+}
+#input_area table {
+  width: 100%;
+  border: 1px solid #333;
+  border-spacing: 0;
+}
+#input_area table tr td {
+  border-right: 1px solid #ccc;
+  border-bottom: 1px solid #ccc;
+}
+#input_area table tr td:first-child {
+  background: #8ea9db;
+  font-weight: bold;
+  padding: 7px;
+  width: 20%;
+}
+#input_area table tr td:last-child {
+  padding-left: 7px;
+  width: 80%;
+}
+#input_button, #back_button {
+  width: 100px;
+}
+.success_message {
+  color: #00f;
+  font-weight: bold;
+}
+.error_message {
+  color: #f00;
+  font-weight: bold;
+}
+#input_area input[type="text"] {
+  width: 80%;
+}
+
+#login_main {
+  margin: 0 auto;
+  width: 60%;
+  padding: 20px;
+}
+#login_area {
+  border: 1px solid #333;
+  padding: 20px;
+}
