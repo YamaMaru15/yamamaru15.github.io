@@ -1,0 +1,56 @@
+main {
+    width: 500px;
+    margin: 16px auto 0;
+}
+
+h1 {
+    margin:0;
+    font-size: 30px;
+    text-align: center;
+}
+
+textarea {
+    width: 100%;
+    box-sizing: border-box;
+    height: 160px;
+    font-size: 20px;
+    padding: 8px;
+    margin-top: 8px;
+}
+
+input {
+    width: 60%;
+    box-sizing: border-box;
+    height: 30px;
+    font-size: 25px;
+    padding: 8px;
+    margin-top: 8px;
+}
+
+::placeholder {
+    opacity: 0.3;
+}
+
+button {
+    padding: 4px 16px;
+    cursor: pointer;
+}
+
+span {
+    font-size: 15px;
+    margin-right: auto;
+    opacity: 0;
+    transition: opacity 300ms;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    gap: 4px;
+    margin-top: 8px;
+
+}
+
+.appear {
+    opacity: 1;
+}
