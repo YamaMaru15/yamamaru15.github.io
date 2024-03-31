@@ -239,9 +239,9 @@ span {
     width: 100%;
     height: 100%;
     background-color: rgba(0, 0, 0, 0.5);
-    z-index: 9998;
+    z-index: 9950;
 }
-  
+
 .portfolio__popup--content {
     display: none;
     position: fixed;
@@ -253,9 +253,9 @@ span {
     background-color: rgb(255, 255, 255);
     padding: 20px;
     text-align: center;
-    z-index: 9999;
+    z-index: 9960;
 }
-  
+
 .portfolio__pop--close-btn {
     display: inline-block;
     height: 20px;
@@ -307,6 +307,57 @@ span {
     cursor: pointer;
     border: rgb(107, 141, 107) 3px outset;
     transform: translateY(-0.5px);
+}
+
+/* slide */
+.portfolio__slide--overlay {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 9970;
+}
+
+.portfolio__slide--prefectures-content {
+    display: none;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    height: 80%;
+    width: 70%;
+    background-color: rgb(255, 255, 255);
+    padding: 20px;
+    text-align: center;
+    z-index: 9980;
+}
+
+.slide-items__wrap {
+    padding: 0;
+    margin-top: 3vh;
+}
+
+.slide-items__item {
+    height: 70vh;   
+    width: 90%; 
+    margin: auto;
+}
+
+.slick-next{
+    right:30px!important;
+    z-index: 9960;
+}
+
+.slick-prev{
+    left:30px!important;
+    z-index: 9960;
+}
+
+.slick-prev:before, .slick-next:before {
+    color: #000;
 }
 
 /* contact */
@@ -364,7 +415,7 @@ span {
 :-ms-input-placeholder {  
     color: #FAFAFA;  
 }
- 
+
 .contact__button {
     background-color:rgb(107, 141, 107);
     padding: 12px 45px;
@@ -392,7 +443,7 @@ span {
     }
 
     /* home */
-     .home__col--name {
+    .home__col--name {
         text-align: center;
     }
 
@@ -436,6 +487,18 @@ span {
 
     .portfolio__popup--content {
         height: 70%;
+        width: 70%;
+    }
+
+
+    /* slide */
+    .slide-items__item {
+        height: 50vh;   
+        width: 90%; 
+    }
+
+    .portfolio__slide--prefectures-content {
+        height: 60%;
         width: 70%;
     }
 
@@ -501,6 +564,16 @@ span {
     }
     .portfolio__popup--link {
         font-size: 20px;
+    }
+
+    /* slide */
+    .slide-items__item {
+        height: 40vh;   
+        width: 90%; 
+    }
+    .portfolio__slide--prefectures-content {
+        height: 50%;
+        width: 85%;
     }
 }
 
@@ -598,7 +671,7 @@ span {
         top: 60px;
         right: 0;
         width: 100%;
-        z-index: 9999;
+        z-index: 9990;
     }
 
     .header-list__list-popup {
@@ -647,6 +720,15 @@ span {
     }
     .portfolio__popup--text {
         font-size: 12px;
+    }
+
+    /* slide */
+    .slide-items__item {
+        height: 20vh;   
+        width: 90%; 
+    }
+    .portfolio__slide--prefectures-content {
+        height: 30%;
     }
 
     /* contact */

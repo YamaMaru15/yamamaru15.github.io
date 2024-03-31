@@ -33,6 +33,19 @@
     $('.header').fadeIn();
   });
 
+  // slide
+  $('.portfolio__popup--button').click(function() {
+    $('.portfolio__slide--overlay, .portfolio__slide--prefectures-content').fadeIn();
+  });
+
+  $('.portfolio__slide--overlay').click(function() {
+    $('.portfolio__slide--overlay, .portfolio__slide--prefectures-content').fadeOut();
+  });
+
+  $('.slide-items__wrap').slick({
+    dots: true,
+  });
+  
   // fadeUp Animation
   function fadeUpAnime(){
     $('.fadeUp').each(function() {
