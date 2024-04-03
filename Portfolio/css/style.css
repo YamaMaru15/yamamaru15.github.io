@@ -207,8 +207,8 @@ span {
 }
 
 .portfolio__col--img {
-    height: 55vh;
-    width: 40vw;
+    height: 47vh;
+    width: 45vw;
     border: 5px solid rgb(107, 141, 107);
     display: inline-block;
 }
@@ -327,8 +327,8 @@ span {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    height: 80%;
-    width: 70%;
+    height: 75%;
+    width: 90%;
     background-color: rgb(255, 255, 255);
     padding: 20px;
     text-align: center;
@@ -341,8 +341,8 @@ span {
 }
 
 .slide-items__item {
-    height: 70vh;   
-    width: 90%; 
+    height: 65vh;   
+    width: 85%; 
     margin: auto;
 }
 
@@ -493,13 +493,13 @@ span {
 
     /* slide */
     .slide-items__item {
-        height: 50vh;   
+        height: 40vh;   
         width: 90%; 
     }
 
     .portfolio__slide--prefectures-content {
-        height: 60%;
-        width: 70%;
+        height: 50%;
+        width: 90%;
     }
 
     /* contact */
@@ -568,12 +568,12 @@ span {
 
     /* slide */
     .slide-items__item {
-        height: 40vh;   
+        height: 35vh;   
         width: 90%; 
     }
     .portfolio__slide--prefectures-content {
-        height: 50%;
-        width: 85%;
+        height: 45%;
+        width: 90%;
     }
 }
 

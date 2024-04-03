@@ -7,7 +7,7 @@
       $('.header-list__wrap-popup').slideToggle();
   });
 
-  // popup title&text SET 
+  // popup
   $('.portfolio__col--yamamaru-img').click(function() {
     $('.portfolio__popup--overlay, .portfolio__popup--yamamaru-content').fadeIn();
     $('.header').fadeOut();
